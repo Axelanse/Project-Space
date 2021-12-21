@@ -1,3 +1,3 @@
 # Welcome
 ## Project Space
-### [Explore](our_solar_system.html) [Articles](Article/index.md)
+### [Explore Space](our_solar_system.html) --- [Articles](Article/index.md)
