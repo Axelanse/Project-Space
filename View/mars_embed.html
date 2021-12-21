@@ -1,0 +1,73 @@
+<!---
+CSS
+_
+_
+_
+_
+--->
+<script>
+    //Planet Click Functions
+    // ---
+    function explore_mars() {
+      console.log("explore_planet")
+      window.parent.location.href = "peg-mars.md"; 
+    }
+    </script>
+<!---
+CSS
+_
+_
+_
+_
+--->
+
+<style>
+
+.abt_tit {
+font-size: 100px;
+font-family: Arial, Helvetica, sans-serif;
+background-color: black;
+color: white;
+position: relative;
+}
+.abt_abt {
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+background-color: black;
+color: white;
+position: unset;
+}
+/* width */
+::-webkit-scrollbar {
+width: 10px;
+}
+      
+/* Track */
+::-webkit-scrollbar-track {
+background: #000000;
+}
+      
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgb(0, 0, 0);
+}
+      
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: rgb(0, 0, 0);
+}
+
+</style>
+
+<!---
+HTML
+_
+_
+_
+_
+--->
+<title>Mars - Project Space</title>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" usemap="#image_map">
+<map name="image_map">
+  <area alt="Planet Exploration - Mars" title="Planet Exploration - Mars" href="#" onclick="explore_mars()" coords="1100,1113,938" shape="circle">
+</map>
